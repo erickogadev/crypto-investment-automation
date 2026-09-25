@@ -150,8 +150,8 @@ Use o passo a passo abaixo para transformar a tabela importada em um layout fina
    - Clique em **OK**.
 
 9. **Melhore a navegação da tabela**
-   - Clique na célula `A2`.
-   - Vá em **Exibir > Congelar Linhas e Colunas** para manter o cabeçalho visível durante a rolagem.
+   - Clique na célula `A2` para que apenas a **linha 1** fique acima da seleção e nenhuma coluna fique à esquerda dela.
+   - Vá em **Exibir > Congelar Linhas e Colunas** para congelar somente o cabeçalho durante a rolagem.
 
 10. **Salve o resultado formatado**
     - Para preservar a formatação, clique em **Arquivo > Salvar como...**
