@@ -150,7 +150,7 @@ Use o passo a passo abaixo para transformar a tabela importada em um layout fina
    - Clique em **OK**.
 
 9. **Melhore a navegação da tabela**
-   - No menu **Exibir/View**, use a opção específica para congelar a primeira linha da planilha; em interfaces em inglês o caminho validado é **View > Freeze Cells > Freeze First Row**.
+   - Em interfaces em português, use **Exibir > Congelar Células > Primeira Linha**; em interfaces em inglês, o caminho equivalente validado é **View > Freeze Cells > Freeze First Row**.
    - Se quiser desfazer depois, volte ao mesmo grupo de comandos de congelamento e escolha a opção de descongelar células.
 
 10. **Salve o resultado formatado**
