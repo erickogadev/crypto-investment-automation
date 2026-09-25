@@ -97,16 +97,16 @@ CONTRIBUTIONS = {
 # Expressed as a decimal (e.g. 0.12 = 12% a.a.). Existing values already in
 # the CSV (Column B) are preserved automatically on every run.
 DEFAULT_RENTABILIDADE = {
-    "Tether": 0.0,
-    "USD Coin": 0.0,
-    "Ethereum": 0.10,
-    "Solana": 0.0,
-    "Near": 0.0,
-    "Cardano": 0.0,
-    "Chiliz": 0.0,
-    "Avalanche": 0.0,
-    "Polkadot": 0.0,
-    "Cosmos": 0.0,
+    "Tether": 5.0,
+    "USD Coin": 5.0,
+    "Ethereum": 2.79,
+    "Solana": 5.52,
+    "Near": 4.94,
+    "Cardano": 1.73,
+    "Chiliz": 15.79,
+    "Avalanche": 4.39,
+    "Polkadot": 2.89,
+    "Cosmos": 19.54,
 }
 
 HEADER = [
