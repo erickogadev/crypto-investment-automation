@@ -122,7 +122,7 @@ Use o passo a passo abaixo para transformar a tabela importada em um layout fina
    - Selecione `A2:F11`.
    - Clique em **Formatar > Formatação Condicional > Condição...**
    - Em **Condição 1**, escolha **A fórmula é**.
-   - Em interfaces em português, use `MOD(LIN();2)=0`; em interfaces em inglês, use `MOD(ROW(),2)=0`.
+   - Em interfaces em português, use `MOD(LIN();2)=0`. Em interfaces em inglês, use `MOD(ROW(),2)=0`; se a sua localidade do Calc usar ponto e vírgula como separador de argumentos, ajuste para `MOD(ROW();2)=0`.
    - Clique em **Novo estilo...**, dê o nome `Linha Par Financeira`.
    - Na criação do estilo, aplique **Plano de Fundo** com a cor `#F7F9FC` (`RGB 247,249,252`) e confirme em **OK**.
    - Confirme novamente em **OK** para aplicar a alternância nas linhas pares.
