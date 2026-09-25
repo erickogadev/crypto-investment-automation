@@ -73,7 +73,7 @@ Use o passo a passo abaixo para transformar a tabela importada em um layout fina
 | E (`Minimo p/ Aportar`) | Custo local calculado | **Moeda BRL** com 2 casas decimais (`R$ #.##0,00`) |
 | F (`Projecao 1 Ano`) | Saldo projetado por fórmula | **Moeda BRL** com 2 casas decimais (`R$ #.##0,00`) |
 
-> **Observação:** a coluna **B** deve continuar armazenando a rentabilidade em formato decimal para que a fórmula `=E*(1+B)` funcione corretamente (ex.: `0,10` para representar `10,00%`).
+> **Observação:** a coluna **B** deve continuar armazenando a rentabilidade em formato decimal para que a projeção da coluna **F** continue correta com a fórmula `=E2*(1+B2)` (ex.: `0,10` para representar `10,00%`).
 
 #### Regras de alinhamento
 - **Cabeçalho (`A1:F1`):** centralizado horizontal e verticalmente.
@@ -122,7 +122,7 @@ Use o passo a passo abaixo para transformar a tabela importada em um layout fina
    - Selecione `A2:F11`.
    - Clique em **Formatar > Formatação Condicional > Condição...**
    - Em **Condição 1**, escolha **A fórmula é**.
-   - Use a fórmula `MOD(LIN();2)=0`.
+   - Em interfaces em português, use `MOD(LIN();2)=0`; em interfaces em inglês, use `MOD(ROW(),2)=0`.
    - Clique em **Novo estilo...**, dê o nome `Linha Par Financeira`.
    - Na criação do estilo, aplique **Plano de Fundo** com a cor `#F7F9FC` (`RGB 247,249,252`) e confirme em **OK**.
    - Confirme novamente em **OK** para aplicar a alternância nas linhas pares.
